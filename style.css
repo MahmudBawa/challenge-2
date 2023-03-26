@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    
+}
+
+#challenge-2 {
+    height: 100vh;
+    max-width: 1400px;
+    width: 100%;
+    padding: 4rem;
+    margin: 1rem 3rem;
+    overflow: hidden;
+}
+
+.navbar-items {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    
+}
+
+.navbar-links {
+    margin-right: 3rem;
+}
+
+.navbar .navbar-links a {
+    text-decoration: none;
+    padding: 0 10px;
+    color: gray;
+    cursor: pointer;
+}
+
+.showcase {
+    height: 100vh;
+    width: 100%;
+}
+
+.showcase .showcase-image {
+    background: url('./assets/images/image-web-3-desktop.jpg') no-repeat center center/cover;
+    height: 200px;
+    width: 850px;
+}
+
+.showcase .sub01 .sub01pic {
+    background: url('./assets/images/image-retro-pcs.jpg') no-repeat center center/cover;
+    height: 100px;
+    width: 70px;
+}
+
+.showcase .sub02 .sub02pic {
+    background: url('./assets/images/image-gaming-growth.jpg') no-repeat center center/cover;
+    height: 100px;
+    width: 70px;
+}
+
+.showcase .sub03 .sub03pic {
+    background: url('./assets/images/image-top-laptops.jpg')  no-repeat center center/cover;
+    height: 100px;
+    width: 70px;
+}
+
+.sidecontent {
+    width: 300px;
+    height: 500px;
+    background-color: rgb(28, 27, 27);
+    color: white;
+    text-align: left;
+}
+
+/* .showcase .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+} */
+m
+.showcase .container-1 {
+    display: flex;
+    height: 50%;
+    width: ;
+}
+
+.showcase .container-2 {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}
+
